@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ivan/CLionProjects/pritnf/ft_printf.h
+stdarg.h
+-
+stdio.h
+-
+iostream
+-
+cstdlib
+-
+unistd.h
+-
+cstring
+-
+limits.h
+-
+
+/home/ivan/CLionProjects/pritnf/print_octal.cpp
+ft_printf.h
+/home/ivan/CLionProjects/pritnf/ft_printf.h
+

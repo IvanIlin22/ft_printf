@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pritnf.dir/main.cpp.o CMakeFiles/pritnf.dir/parce_modifier.cpp.o CMakeFiles/pritnf.dir/print_decimal.cpp.o CMakeFiles/pritnf.dir/print_octal.cpp.o CMakeFiles/pritnf.dir/print_string.cpp.o CMakeFiles/pritnf.dir/print_char.cpp.o  -o pritnf 
