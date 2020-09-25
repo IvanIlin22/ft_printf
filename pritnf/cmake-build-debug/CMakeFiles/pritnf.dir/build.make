@@ -63,10 +63,10 @@ RM = /home/ivan/Загрузки/clion-2020.1.2/bin/cmake/linux/bin/cmake -E rm 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ivan/CLionProjects/pritnf
+CMAKE_SOURCE_DIR = /home/ivan/ft_printf/pritnf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ivan/CLionProjects/pritnf/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ivan/ft_printf/pritnf/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pritnf.dir/depend.make
@@ -79,81 +79,81 @@ include CMakeFiles/pritnf.dir/flags.make
 
 CMakeFiles/pritnf.dir/main.cpp.o: CMakeFiles/pritnf.dir/flags.make
 CMakeFiles/pritnf.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pritnf.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/main.cpp.o -c /home/ivan/CLionProjects/pritnf/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pritnf.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/main.cpp.o -c /home/ivan/ft_printf/pritnf/main.cpp
 
 CMakeFiles/pritnf.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pritnf.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/pritnf/main.cpp > CMakeFiles/pritnf.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/ft_printf/pritnf/main.cpp > CMakeFiles/pritnf.dir/main.cpp.i
 
 CMakeFiles/pritnf.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pritnf.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/pritnf/main.cpp -o CMakeFiles/pritnf.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/ft_printf/pritnf/main.cpp -o CMakeFiles/pritnf.dir/main.cpp.s
 
 CMakeFiles/pritnf.dir/parce_modifier.cpp.o: CMakeFiles/pritnf.dir/flags.make
 CMakeFiles/pritnf.dir/parce_modifier.cpp.o: ../parce_modifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pritnf.dir/parce_modifier.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/parce_modifier.cpp.o -c /home/ivan/CLionProjects/pritnf/parce_modifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pritnf.dir/parce_modifier.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/parce_modifier.cpp.o -c /home/ivan/ft_printf/pritnf/parce_modifier.cpp
 
 CMakeFiles/pritnf.dir/parce_modifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pritnf.dir/parce_modifier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/pritnf/parce_modifier.cpp > CMakeFiles/pritnf.dir/parce_modifier.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/ft_printf/pritnf/parce_modifier.cpp > CMakeFiles/pritnf.dir/parce_modifier.cpp.i
 
 CMakeFiles/pritnf.dir/parce_modifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pritnf.dir/parce_modifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/pritnf/parce_modifier.cpp -o CMakeFiles/pritnf.dir/parce_modifier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/ft_printf/pritnf/parce_modifier.cpp -o CMakeFiles/pritnf.dir/parce_modifier.cpp.s
 
 CMakeFiles/pritnf.dir/print_decimal.cpp.o: CMakeFiles/pritnf.dir/flags.make
 CMakeFiles/pritnf.dir/print_decimal.cpp.o: ../print_decimal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pritnf.dir/print_decimal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_decimal.cpp.o -c /home/ivan/CLionProjects/pritnf/print_decimal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pritnf.dir/print_decimal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_decimal.cpp.o -c /home/ivan/ft_printf/pritnf/print_decimal.cpp
 
 CMakeFiles/pritnf.dir/print_decimal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pritnf.dir/print_decimal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/pritnf/print_decimal.cpp > CMakeFiles/pritnf.dir/print_decimal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/ft_printf/pritnf/print_decimal.cpp > CMakeFiles/pritnf.dir/print_decimal.cpp.i
 
 CMakeFiles/pritnf.dir/print_decimal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pritnf.dir/print_decimal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/pritnf/print_decimal.cpp -o CMakeFiles/pritnf.dir/print_decimal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/ft_printf/pritnf/print_decimal.cpp -o CMakeFiles/pritnf.dir/print_decimal.cpp.s
 
 CMakeFiles/pritnf.dir/print_octal.cpp.o: CMakeFiles/pritnf.dir/flags.make
 CMakeFiles/pritnf.dir/print_octal.cpp.o: ../print_octal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pritnf.dir/print_octal.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_octal.cpp.o -c /home/ivan/CLionProjects/pritnf/print_octal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pritnf.dir/print_octal.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_octal.cpp.o -c /home/ivan/ft_printf/pritnf/print_octal.cpp
 
 CMakeFiles/pritnf.dir/print_octal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pritnf.dir/print_octal.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/pritnf/print_octal.cpp > CMakeFiles/pritnf.dir/print_octal.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/ft_printf/pritnf/print_octal.cpp > CMakeFiles/pritnf.dir/print_octal.cpp.i
 
 CMakeFiles/pritnf.dir/print_octal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pritnf.dir/print_octal.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/pritnf/print_octal.cpp -o CMakeFiles/pritnf.dir/print_octal.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/ft_printf/pritnf/print_octal.cpp -o CMakeFiles/pritnf.dir/print_octal.cpp.s
 
 CMakeFiles/pritnf.dir/print_string.cpp.o: CMakeFiles/pritnf.dir/flags.make
 CMakeFiles/pritnf.dir/print_string.cpp.o: ../print\ string.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pritnf.dir/print_string.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_string.cpp.o -c "/home/ivan/CLionProjects/pritnf/print string.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pritnf.dir/print_string.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_string.cpp.o -c "/home/ivan/ft_printf/pritnf/print string.cpp"
 
 CMakeFiles/pritnf.dir/print_string.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pritnf.dir/print_string.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ivan/CLionProjects/pritnf/print string.cpp" > CMakeFiles/pritnf.dir/print_string.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ivan/ft_printf/pritnf/print string.cpp" > CMakeFiles/pritnf.dir/print_string.cpp.i
 
 CMakeFiles/pritnf.dir/print_string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pritnf.dir/print_string.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ivan/CLionProjects/pritnf/print string.cpp" -o CMakeFiles/pritnf.dir/print_string.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ivan/ft_printf/pritnf/print string.cpp" -o CMakeFiles/pritnf.dir/print_string.cpp.s
 
 CMakeFiles/pritnf.dir/print_char.cpp.o: CMakeFiles/pritnf.dir/flags.make
 CMakeFiles/pritnf.dir/print_char.cpp.o: ../print_char.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pritnf.dir/print_char.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_char.cpp.o -c /home/ivan/CLionProjects/pritnf/print_char.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pritnf.dir/print_char.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pritnf.dir/print_char.cpp.o -c /home/ivan/ft_printf/pritnf/print_char.cpp
 
 CMakeFiles/pritnf.dir/print_char.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pritnf.dir/print_char.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/CLionProjects/pritnf/print_char.cpp > CMakeFiles/pritnf.dir/print_char.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ivan/ft_printf/pritnf/print_char.cpp > CMakeFiles/pritnf.dir/print_char.cpp.i
 
 CMakeFiles/pritnf.dir/print_char.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pritnf.dir/print_char.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/CLionProjects/pritnf/print_char.cpp -o CMakeFiles/pritnf.dir/print_char.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ivan/ft_printf/pritnf/print_char.cpp -o CMakeFiles/pritnf.dir/print_char.cpp.s
 
 # Object files for target pritnf
 pritnf_OBJECTS = \
@@ -175,7 +175,7 @@ pritnf: CMakeFiles/pritnf.dir/print_string.cpp.o
 pritnf: CMakeFiles/pritnf.dir/print_char.cpp.o
 pritnf: CMakeFiles/pritnf.dir/build.make
 pritnf: CMakeFiles/pritnf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pritnf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pritnf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pritnf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/pritnf.dir/clean:
 .PHONY : CMakeFiles/pritnf.dir/clean
 
 CMakeFiles/pritnf.dir/depend:
-	cd /home/ivan/CLionProjects/pritnf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/CLionProjects/pritnf /home/ivan/CLionProjects/pritnf /home/ivan/CLionProjects/pritnf/cmake-build-debug /home/ivan/CLionProjects/pritnf/cmake-build-debug /home/ivan/CLionProjects/pritnf/cmake-build-debug/CMakeFiles/pritnf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ivan/ft_printf/pritnf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ivan/ft_printf/pritnf /home/ivan/ft_printf/pritnf /home/ivan/ft_printf/pritnf/cmake-build-debug /home/ivan/ft_printf/pritnf/cmake-build-debug /home/ivan/ft_printf/pritnf/cmake-build-debug/CMakeFiles/pritnf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pritnf.dir/depend
 

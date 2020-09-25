@@ -1,4 +1,4 @@
-/home/ivan/Загрузки/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ivan/CLionProjects/pritnf
+/home/ivan/Загрузки/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ivan/ft_printf/pritnf
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ivan/CLionProjects/pritnf/cmake-build-debug
+-- Build files have been written to: /home/ivan/ft_printf/pritnf/cmake-build-debug

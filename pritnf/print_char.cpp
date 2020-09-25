@@ -31,8 +31,8 @@ void            ft_putchar_wc(t_printf *p, wchar_t length_num)
         ft_putchar(p, 128 | ((length_num >> 6) & 63));
         ft_putchar(p, 128 | (length_num & 63));
     }
-    else
-        p->len = -1;
+    /*else
+        p->len = -1;*/
 }
 
 static void    ft_print_right_length(t_printf *p, wchar_t length_num)

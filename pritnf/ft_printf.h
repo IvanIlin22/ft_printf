@@ -42,9 +42,13 @@ void    ft_parse_modificator(t_printf *p, va_list args, const char *format);
 char    *ft_strchr(const char *str, char c);
 int     ft_itoa_base_pr(int fd, intmax_t num, int base);
 int     ft_len(intmax_t num, int base);
+int     ft_strlen(const char *str);
+void            ft_putchar_wc(t_printf *p, wchar_t length_num);
 
 
 void    ft_print_decimal(t_printf *p, va_list argc, char c);
 void    ft_print_octal(t_printf *p, va_list argc, char c);
+void    ft_print_string(t_printf *p, va_list argc, char c);
+void    ft_print_char(t_printf *p, va_list argc, char c);
 
 #endif //PRITNF_FT_PRINTF_H

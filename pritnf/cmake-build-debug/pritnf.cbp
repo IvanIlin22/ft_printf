@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ivan/CLionProjects/pritnf/cmake-build-debug"/>
+				<Option working_dir="/home/ivan/ft_printf/pritnf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ivan/CLionProjects/pritnf/cmake-build-debug"/>
+				<Option working_dir="/home/ivan/ft_printf/pritnf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ivan/CLionProjects/pritnf/cmake-build-debug"/>
+				<Option working_dir="/home/ivan/ft_printf/pritnf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pritnf">
-				<Option output="/home/ivan/CLionProjects/pritnf/cmake-build-debug/pritnf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/pritnf/cmake-build-debug"/>
+				<Option output="/home/ivan/ft_printf/pritnf/cmake-build-debug/pritnf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/ft_printf/pritnf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 pritnf"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 pritnf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="pritnf/fast">
-				<Option output="/home/ivan/CLionProjects/pritnf/cmake-build-debug/pritnf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ivan/CLionProjects/pritnf/cmake-build-debug"/>
+				<Option output="/home/ivan/ft_printf/pritnf/cmake-build-debug/pritnf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivan/ft_printf/pritnf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,35 +75,35 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 pritnf/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/CLionProjects/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 pritnf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/ivan/ft_printf/pritnf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/ft_printf.h">
+		<Unit filename="/home/ivan/ft_printf/pritnf/ft_printf.h">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/main.cpp">
+		<Unit filename="/home/ivan/ft_printf/pritnf/main.cpp">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/parce_modifier.cpp">
+		<Unit filename="/home/ivan/ft_printf/pritnf/parce_modifier.cpp">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/print string.cpp">
+		<Unit filename="/home/ivan/ft_printf/pritnf/print string.cpp">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/print_char.cpp">
+		<Unit filename="/home/ivan/ft_printf/pritnf/print_char.cpp">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/print_decimal.cpp">
+		<Unit filename="/home/ivan/ft_printf/pritnf/print_decimal.cpp">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/print_octal.cpp">
+		<Unit filename="/home/ivan/ft_printf/pritnf/print_octal.cpp">
 			<Option target="pritnf"/>
 		</Unit>
-		<Unit filename="/home/ivan/CLionProjects/pritnf/CMakeLists.txt">
+		<Unit filename="/home/ivan/ft_printf/pritnf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

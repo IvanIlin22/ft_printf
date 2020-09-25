@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ivan/CLionProjects/pritnf/ft_printf.h
+/home/ivan/ft_printf/pritnf/ft_printf.h
 stdarg.h
 -
 stdio.h
@@ -22,7 +22,7 @@ cstring
 limits.h
 -
 
-/home/ivan/CLionProjects/pritnf/print_octal.cpp
+/home/ivan/ft_printf/pritnf/print string.cpp
 ft_printf.h
-/home/ivan/CLionProjects/pritnf/ft_printf.h
+/home/ivan/ft_printf/pritnf/ft_printf.h
 

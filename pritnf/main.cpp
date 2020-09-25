@@ -19,7 +19,11 @@ void    *ft_memalloc(size_t size)
 
 int     ft_strlen(const char *str)
 {
-    int len = 0;
+    if (!str)
+        return 0;
+    int len;
+
+    len = 0;
     while(str[len])
         len++;
     return len;
@@ -68,16 +72,16 @@ void    ft_print(t_printf *p, va_list argc, const char *format)
         ft_print_decimal(p, argc, format[p->i]);
     else if (format[p->i] == 'o' || format[p->i] == 'O')
         ft_print_octal(p, argc, format[p->i]);
-    /*else if (format[p->i] == 's' || format[p->i] == 'S')
+    else if (format[p->i] == 's' || format[p->i] == 'S')
         ft_print_string(p, argc, format[p->i]);
-    else if (format[p->i] == 'p')
-        ft_print_pointer(p, argc, format[p->i]);
-    else if (format[p->i] == 'u' || format[p->i] == 'U')
-        ft_print_decimal(p, argc, format[p->i]);
-    else if (format[p->i] == 'x' || format[p->i] == 'X')
-        ft_print_hexadecimal(p, argc, format[p->i]);
     else if (format[p->i] == 'c' || format[p->i] == 'C')
         ft_print_char(p, argc, format[p->i]);
+    /*else if (format[p->i] == 'p')
+        ft_print_pointer(p, argc, format[p->i]);
+    else if (format[p->i] == 'u' || format[p->i] == 'U')
+        ft_print_(p, argc, format[p->i]);
+    else if (format[p->i] == 'x' || format[p->i] == 'X')
+        ft_print_hexadecimal(p, argc, format[p->i]);
     else if (format[p->i] == 'b')
         ft_print_binary(p, argc, format[p->i]);
     else if (format[p->i] == 'r')
@@ -167,26 +171,46 @@ int     ft_itoa_base_pr(int fd, intmax_t num, int base)
 
 
 int main() {
+
+    setlocale(LC_ALL, "");
     //printf("%i\n", ft_itoa_base_pr(1, 150, 10));
     //printf("%08.4f\n", 2.5);
     int len = 0;
     int lenmy = 0;
-    ft_printf("%-0#8.4o", 11);
-    printf("Hello1\n");
-    printf("%-0#8.4o", 10);
-    printf("Hello1\n");
-    ft_printf("%-#04.o", 11);
-    printf("Hello2\n");
-    printf("%-#04.o", 10);
-    printf("Hello2\n");
-    printf("%-0#4.8o", 11);
-    printf("Hello3\n");
-    ft_printf("%-0#4.8o", 10);
-    printf("Hello3\n");
+
+    wchar_t *str = NULL;
+    ft_printf("%15.13ls", L"Hello!€¢");
+    printf("124\n");
+    printf("%15.13ls", L"Hello!€¢");
+    printf("123\n");
+    ft_printf("%-10.6ls", str);
+    printf("4\n");
+    printf("%-10.6ls", str);
+    printf("4\n");
 
     //printf("%-+5.i\n", 1);
     //printf("len = %i\n", len);
     //printf("lenmy = %i\n", len);
-
-
 }
+/*
+//тест Восьмеричных
+ft_printf("%-0#8.4o", 11);
+printf("Hello1\n");
+printf("%-0#8.4o", 10);
+printf("Hello1\n");
+ft_printf("%-#04.o", 11);
+printf("Hello2\n");
+printf("%-#04.o", 10);
+printf("Hello2\n");
+printf("%-0#4.8o", 11);
+printf("Hello3\n");
+ft_printf("%-0#4.8o", 10);
+printf("Hello3\n");
+    /символ
+    ft_printf("%-5lc", L'¢');
+    printf("Hello\n");
+    printf("%-5lc", L'¢');
+    printf("Hello\n");
+    ft_printf("%011lc\n", L'€');
+    printf("%011lc\n", L'€');
+ */
